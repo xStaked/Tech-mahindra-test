@@ -1,0 +1,49 @@
+.customers {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.customers td,
+.customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+	background-color: #ddd;
+}
+
+.customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04aa6d;
+	color: white;
+}
+
+.dashboard__card {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.dashboard__card--sex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.border-right {
+	border-right: 1px solid #ddd;
+	padding-right: 1.5rem;
+}
